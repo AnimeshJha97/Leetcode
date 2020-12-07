@@ -1,7 +1,7 @@
 # Solution 1
 # O(m*n^2) -> Time | O(1) -> Space
-# m = size of pieces
-# n = size of arr and worst case for size of each list in list piece
+# m = size of list pieces
+# n = size of arr and worst case for size of each list in list pieces
 class Solution:
     def canFormArray(self, arr: List[int], pieces: List[List[int]]) -> bool:
         i = 0
